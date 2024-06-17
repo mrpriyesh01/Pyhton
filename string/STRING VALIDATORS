@@ -1,0 +1,28 @@
+QUESTION=Python has built-in string validation methods for basic data.
+It can check if a string is composed of alphabetical characters, alphanumeric characters, digits, etc.
+
+
+CODE=
+
+if __name__ == '__main__':
+    s = input()  # Prompt user for input and store it in 's'
+    
+    # Initialize flags to False
+    alnum = False  # Flag for alphanumeric characters
+    alph = False   # Flag for alphabetical characters
+    digi = False   # Flag for digits
+    lw = False     # Flag for lowercase letters
+    up = False     # Flag for uppercase letters
+    
+    # Loop through each character in the string 's'
+    for c in s:
+        if c.isalnum():
+            alnum = True      # Set 'alnum' to True if any character is alphanumeric
+        if c.isalpha():
+            alph = True       # Set 'alph' to True if any character is alphabetical
+        if c.isdigit():
+            digi = True       # Set 'digi' to True if any character is a digit
+        if c.islower():
+            lw = True          # Set 'lw' to True if any character is lowercase
+        if c.isupper():
+            up = True         # Set 'up' to True if any character IS UPPER
