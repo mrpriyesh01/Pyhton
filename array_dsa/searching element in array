@@ -1,0 +1,12 @@
+import array
+
+my_array1 = array.array('i', [1, 2, 3, 4, 5, 6])
+
+def linear_search(arr, target):
+    for i in range(len(arr)):
+        if arr[i] == target:
+            return i  # Return the index of the target element if found
+    return -1  # Return -1 if target element is not found
+
+print(linear_search(my_array1, 5))
+print(linear_search(my_array1,9))
