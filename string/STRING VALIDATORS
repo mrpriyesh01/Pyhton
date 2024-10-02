@@ -2,7 +2,7 @@ QUESTION=Python has built-in string validation methods for basic data.
 It can check if a string is composed of alphabetical characters, alphanumeric characters, digits, etc.
 
 
-CODE=
+CODE===
 
 if __name__ == '__main__':
     s = input()  # Prompt user for input and store it in 's'
