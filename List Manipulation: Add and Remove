@@ -1,0 +1,6 @@
+fruits=["apple","banana","cherry"]
+print(fruits)
+fruits.append("orange")
+print("adding the fruits:",fruits)
+fruits.remove("banana")
+print("removing the  fruits from thr fruitd lidt:",fruits)
